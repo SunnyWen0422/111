@@ -1,0 +1,8 @@
+<!--index.wxml-->  
+<view class="container">  
+  <!-- 移除文本输入框 -->  
+    
+  <button bindtap="calculate">Calculate</button>  
+  <button bindtap="delete">Delete</button>  
+  <view>{{ result }}</view>  
+</view>
